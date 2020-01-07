@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{644FC746-8299-4AEA-A4B1-6382FB78FC6A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Practice.Beginner</RootNamespace>
+    <AssemblyName>Practice.Beginner</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Practice.Beginner.TRISQ</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AMR15A.cs" />
+    <Compile Include="ATM2.cs" />
+    <Compile Include="ATTND.cs" />
+    <Compile Include="BIT2A.cs" />
+    <Compile Include="CANDY123.cs" />
+    <Compile Include="CATFEED.cs" />
+    <Compile Include="CCOOK.cs" />
+    <Compile Include="CFRTEST.cs" />
+    <Compile Include="Cheated\CUTBOARD.cs" />
+    <Compile Include="CHEFSTUD.cs" />
+    <Compile Include="CHFINTRO.cs" />
+    <Compile Include="CHOPRT.cs" />
+    <Compile Include="CHSERVE.cs" />
+    <Compile Include="CIELRCPT.cs" />
+    <Compile Include="CO92JUDG.cs" />
+    <Compile Include="COPS.cs" />
+    <Compile Include="CV.cs" />
+    <Compile Include="DECINC.cs" />
+    <Compile Include="DIET.cs" />
+    <Compile Include="DIFFSUM.cs" />
+    <Compile Include="DWNLD.cs" />
+    <Compile Include="FLOW001.cs" />
+    <Compile Include="FLOW002.cs" />
+    <Compile Include="FLOW004.cs" />
+    <Compile Include="FLOW005.cs" />
+    <Compile Include="FLOW006.cs" />
+    <Compile Include="FLOW008.cs" />
+    <Compile Include="FLOW010.cs" />
+    <Compile Include="FLOW013.cs" />
+    <Compile Include="FLOW014.cs" />
+    <Compile Include="FLOW017.cs" />
+    <Compile Include="FLOW018.cs" />
+    <Compile Include="FRGTNLNG.cs" />
+    <Compile Include="FRK.cs" />
+    <Compile Include="FSQRT.cs" />
+    <Compile Include="HEADBOB.cs" />
+    <Compile Include="JDELAY.cs" />
+    <Compile Include="KTTABLE.cs" />
+    <Compile Include="LAPIN.cs" />
+    <Compile Include="LCH15JAB.cs" />
+    <Compile Include="LUCKFOUR.cs" />
+    <Compile Include="MATCHES.cs" />
+    <Compile Include="MOVIEWKN.cs" />
+    <Compile Include="MSNSADM1.cs" />
+    <Compile Include="MUFFINS3.cs" />
+    <Compile Include="PALL01.cs" />
+    <Compile Include="PLAYPIAN.cs" />
+    <Compile Include="PLAYSTR.cs" />
+    <Compile Include="POTATOES.cs" />
+    <Compile Include="PPATTERN.cs" />
+    <Compile Include="PPSUM.cs" />
+    <Compile Include="PPSUM_Editorial.cs" />
+    <Compile Include="PRB01.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REMISS.cs" />
+    <Compile Include="RPD.cs" />
+    <Compile Include="SIMDISH.cs" />
+    <Compile Include="SNCKYEAR.cs" />
+    <Compile Include="START01.cs" />
+    <Compile Include="TABLET.cs" />
+    <Compile Include="TRAINSET.cs" />
+    <Compile Include="TRISQ.cs" />
+    <Compile Include="TWOVSTEN.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

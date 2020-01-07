@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Beginner", "Practice.Beginner\Practice.Beginner.csproj", "{644FC746-8299-4AEA-A4B1-6382FB78FC6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LunchTime", "LunchTime", "{F1BA15E7-5F04-404A-A198-9943D5976D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compete.LTIME79", "Compete.LTIME79\Compete.LTIME79.csproj", "{A2AE5D11-6FAB-45F4-AEC2-CC6457598E66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{644FC746-8299-4AEA-A4B1-6382FB78FC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644FC746-8299-4AEA-A4B1-6382FB78FC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644FC746-8299-4AEA-A4B1-6382FB78FC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644FC746-8299-4AEA-A4B1-6382FB78FC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AE5D11-6FAB-45F4-AEC2-CC6457598E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AE5D11-6FAB-45F4-AEC2-CC6457598E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AE5D11-6FAB-45F4-AEC2-CC6457598E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AE5D11-6FAB-45F4-AEC2-CC6457598E66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2AE5D11-6FAB-45F4-AEC2-CC6457598E66} = {F1BA15E7-5F04-404A-A198-9943D5976D0D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2936DA5C-ED94-4CB2-B53E-86BFF66027A5}
+	EndGlobalSection
+EndGlobal

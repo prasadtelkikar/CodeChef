@@ -1,0 +1,8 @@
+﻿TODO programs, why it in TODO list and any inputs for further attempts:
+
+- ATTND, because first attempt failed due to timed out. To move forward I need to remove Any inside foreach loop.
+  Also need to refactor to minimize complexity.
+
+- COPS - Try default result as 100 and minus every time.
+
+- PRB01

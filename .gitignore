@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CodeChef/v16
+/Compete.LTIME79/bin/Debug
+/Compete.LTIME79/obj/Debug
+/Practice.Beginner/bin/Debug
+/Practice.Beginner/obj/Debug
+/Practice.Beginner/Practice.Beginner.csproj.user

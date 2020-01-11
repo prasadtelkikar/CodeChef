@@ -8,3 +8,6 @@
 /Practice.Beginner/bin/Debug
 /Practice.Beginner/obj/Debug
 /Practice.Beginner/Practice.Beginner.csproj.user
+/*/bin/Debug
+/*/obj/Debug
+/*/*.csproj.user

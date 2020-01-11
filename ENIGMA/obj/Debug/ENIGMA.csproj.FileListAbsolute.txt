@@ -1,0 +1,6 @@
+D:\Others\GitHub\CodeChef\ENIGMA\bin\Debug\ENIGMA.exe.config
+D:\Others\GitHub\CodeChef\ENIGMA\bin\Debug\ENIGMA.exe
+D:\Others\GitHub\CodeChef\ENIGMA\bin\Debug\ENIGMA.pdb
+D:\Others\GitHub\CodeChef\ENIGMA\obj\Debug\ENIGMA.csprojAssemblyReference.cache
+D:\Others\GitHub\CodeChef\ENIGMA\obj\Debug\ENIGMA.exe
+D:\Others\GitHub\CodeChef\ENIGMA\obj\Debug\ENIGMA.pdb

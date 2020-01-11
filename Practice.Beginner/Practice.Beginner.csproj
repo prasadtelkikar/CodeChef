@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.TRISQ</StartupObject>
+    <StartupObject>Practice.Beginner.CHEFARRP</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,8 @@
     <Compile Include="CCOOK.cs" />
     <Compile Include="CFRTEST.cs" />
     <Compile Include="Cheated\CUTBOARD.cs" />
+    <Compile Include="Cheated\ICL1902.cs" />
+    <Compile Include="CHEFARRP.cs" />
     <Compile Include="CHEFSTUD.cs" />
     <Compile Include="CHFINTRO.cs" />
     <Compile Include="CHOPRT.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="REMISS.cs" />
     <Compile Include="RPD.cs" />
+    <Compile Include="RRJOKE.cs" />
     <Compile Include="SIMDISH.cs" />
     <Compile Include="SNCKYEAR.cs" />
     <Compile Include="START01.cs" />

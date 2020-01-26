@@ -14,7 +14,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.CHEFARRP</StartupObject>
+    <StartupObject>Practice.Beginner.EXAM1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="CATFEED.cs" />
     <Compile Include="CCOOK.cs" />
     <Compile Include="CFRTEST.cs" />
+    <Compile Include="Cheated\CHFIDEAL.cs" />
     <Compile Include="Cheated\CUTBOARD.cs" />
     <Compile Include="Cheated\ICL1902.cs" />
     <Compile Include="CHEFARRP.cs" />
@@ -64,12 +65,14 @@
     <Compile Include="CHSERVE.cs" />
     <Compile Include="CIELRCPT.cs" />
     <Compile Include="CO92JUDG.cs" />
+    <Compile Include="Cheated\COMM3.cs" />
     <Compile Include="COPS.cs" />
     <Compile Include="CV.cs" />
     <Compile Include="DECINC.cs" />
     <Compile Include="DIET.cs" />
     <Compile Include="DIFFSUM.cs" />
     <Compile Include="DWNLD.cs" />
+    <Compile Include="EXAM1.cs" />
     <Compile Include="FLOW001.cs" />
     <Compile Include="FLOW002.cs" />
     <Compile Include="FLOW004.cs" />
@@ -89,8 +92,11 @@
     <Compile Include="KTTABLE.cs" />
     <Compile Include="LAPIN.cs" />
     <Compile Include="LCH15JAB.cs" />
+    <Compile Include="LTM40AB.cs" />
     <Compile Include="LUCKFOUR.cs" />
+    <Compile Include="LZYG.cs" />
     <Compile Include="MATCHES.cs" />
+    <Compile Include="MDL.cs" />
     <Compile Include="MOVIEWKN.cs" />
     <Compile Include="MSNSADM1.cs" />
     <Compile Include="MUFFINS3.cs" />
@@ -109,10 +115,14 @@
     <Compile Include="SIMDISH.cs" />
     <Compile Include="SNCKYEAR.cs" />
     <Compile Include="START01.cs" />
+    <Compile Include="STRLBP.cs" />
     <Compile Include="TABLET.cs" />
     <Compile Include="TRAINSET.cs" />
     <Compile Include="TRISQ.cs" />
+    <Compile Include="TSTROBOT.cs" />
     <Compile Include="TWOVSTEN.cs" />
+    <Compile Include="VCS.cs" />
+    <Compile Include="WATSCORE.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

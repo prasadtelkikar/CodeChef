@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.EXAM1</StartupObject>
+    <StartupObject>Practice.Beginner.EQUALNUM</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -72,6 +72,7 @@
     <Compile Include="DIET.cs" />
     <Compile Include="DIFFSUM.cs" />
     <Compile Include="DWNLD.cs" />
+    <Compile Include="EQUALNUM.cs" />
     <Compile Include="EXAM1.cs" />
     <Compile Include="FLOW001.cs" />
     <Compile Include="FLOW002.cs" />

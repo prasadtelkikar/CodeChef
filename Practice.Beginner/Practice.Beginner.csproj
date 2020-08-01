@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.EQUALNUM</StartupObject>
+    <StartupObject>Practice.Beginner.FLOW009</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,6 +80,7 @@
     <Compile Include="FLOW005.cs" />
     <Compile Include="FLOW006.cs" />
     <Compile Include="FLOW008.cs" />
+    <Compile Include="FLOW009.cs" />
     <Compile Include="FLOW010.cs" />
     <Compile Include="FLOW013.cs" />
     <Compile Include="FLOW014.cs" />

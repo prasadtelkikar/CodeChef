@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.INTEST</StartupObject>
+    <StartupObject>Practice.Beginner.FLOW011</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -86,6 +86,7 @@
     <Compile Include="FLOW008.cs" />
     <Compile Include="FLOW009.cs" />
     <Compile Include="FLOW010.cs" />
+    <Compile Include="FLOW011.cs" />
     <Compile Include="FLOW013.cs" />
     <Compile Include="FLOW014.cs" />
     <Compile Include="FLOW017.cs" />

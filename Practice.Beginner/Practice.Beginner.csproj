@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Practice.Beginner</RootNamespace>
     <AssemblyName>Practice.Beginner</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x64</PlatformTarget>
@@ -33,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.CHN15A</StartupObject>
+    <StartupObject>Practice.Beginner.INTEST</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -93,6 +94,7 @@
     <Compile Include="FRK.cs" />
     <Compile Include="FSQRT.cs" />
     <Compile Include="HEADBOB.cs" />
+    <Compile Include="INTEST.cs" />
     <Compile Include="JDELAY.cs" />
     <Compile Include="KTTABLE.cs" />
     <Compile Include="LAPIN.cs" />

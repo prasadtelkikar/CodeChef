@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.FLOW011</StartupObject>
+    <StartupObject>Practice.Beginner.RECIPE</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,8 @@
     <Compile Include="CHOPRT.cs" />
     <Compile Include="CHSERVE.cs" />
     <Compile Include="CIELRCPT.cs" />
+    <Compile Include="RECIPE.cs" />
+    <Compile Include="SMPAIR.cs" />
     <Compile Include="CO92JUDG.cs" />
     <Compile Include="Cheated\COMM3.cs" />
     <Compile Include="COPS.cs" />

@@ -8,4 +8,5 @@
 - PRB01
 
 
-Started with Ubuntu 20.04. let see how it goes
+Started with Ubuntu 20.04. let see how it goes. 
+Added configuration with my account details

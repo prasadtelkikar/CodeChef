@@ -8,7 +8,7 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/prasad/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "/home/github/CodeChef/solutions-ubuntu/solutions-ubuntu.csproj",
       "projectName": "solutions-ubuntu",
       "projectPath": "/home/github/CodeChef/solutions-ubuntu/solutions-ubuntu.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/prasad/.nuget/packages/",
       "outputPath": "/home/github/CodeChef/solutions-ubuntu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/prasad/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

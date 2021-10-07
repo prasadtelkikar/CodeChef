@@ -3,8 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>solutions_ubuntu</RootNamespace>
-    <StartupObject>solutions_ubuntu.Program</StartupObject>
+    <RootNamespace>solution_ubuntu_1</RootNamespace>
   </PropertyGroup>
 
 </Project>

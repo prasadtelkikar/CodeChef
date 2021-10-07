@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/github/CodeChef/solutions-ubuntu/solutions-ubuntu.csproj",
-      "projectName": "solutions-ubuntu",
-      "projectPath": "/home/github/CodeChef/solutions-ubuntu/solutions-ubuntu.csproj",
+      "projectUniqueName": "/home/github/CodeChef/solution-ubuntu-1/solution-ubuntu-1.csproj",
+      "projectName": "solution-ubuntu-1",
+      "projectPath": "/home/github/CodeChef/solution-ubuntu-1/solution-ubuntu-1.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/github/CodeChef/solutions-ubuntu/obj/",
+      "outputPath": "/home/github/CodeChef/solution-ubuntu-1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"

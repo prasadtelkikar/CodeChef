@@ -7,8 +7,16 @@
         {
             "name": ".NET Core Attach",
             "type": "coreclr",
-            "request": "attach"
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program":"${workspaceFolder}/bin/Debug/net5.0/solution-ubuntu-1.dll",
+            "args":[],
+            "cwd":"${workspaceFolder}",
+            "stopAtEntry":false,
+            "console": "integratedTerminal",
+
         }
+
 
     ]
 }

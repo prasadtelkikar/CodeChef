@@ -14,11 +14,10 @@ namespace solutions_ubuntu
             {
                 var clicks = Console.ReadLine().Trim().Split();
                 var status = clicks[0];
-                Console.WriteLine(string.Join(" ", clicks));
                 if(status == "CLOSEALL")
                     tweets = new int[inputs[0]];
                 else{
-                    var index = int.Parse(clicks[1]);
+                    var index = int.Parse(clicks[1]) - 1;
                     tweets[index] = tweets[index] == 0 ? 1 : 0;
                 }
                 var clickCount = tweets.Count(x => x == 1);

@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace solutions_ubuntu
@@ -8,18 +9,21 @@ namespace solutions_ubuntu
         public static void Main(string[] args)
         {
             var testCases = int.Parse(Console.ReadLine().Trim());
-            List<string> result = new List<string>();
             for(int i = 0; i < testCases; i++)
             {
-                HashSet<int> uniqueDolls = new HashSet<int>();
-                var noOfDolls = int.Parse(Console.ReadLine().Trim());
-                for(int j = 0; j < noOfDolls; j++){
+                var length = int.Parse(Console.ReadLine().Trim());
+                List<int> dolls = new List<int>();
+                for(int j = 0; j < length; j++)
+                {
                     var dollNumber = int.Parse(Console.ReadLine().Trim());
-                    uniqueDolls.Add(dollNumber);
+                    if(dolls.Contains(dollNumber))
+                        dolls.Remove(dollNumber);
+                    else
+                        dolls.Add(dollNumber);
                 }
-                result.Add(string.Join(Environment.NewLine, uniqueDolls));
+                foreach(var d in dolls)
+                    Console.WriteLine(d);
             }
-            Console.WriteLine(string.Join(Environment.NewLine, result));
         }
     }
 }

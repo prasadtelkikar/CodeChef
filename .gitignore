@@ -11,27 +11,4 @@
 /*/bin/Debug
 /*/obj/Debug
 /*/*.csproj.user
-~/root/code.lock
-~/root/languagepacks.json
-~/root/machineid
-~/root/Network Persistent State
-~/root/QuotaManager
-~/root/QuotaManager-journal
-~/root/storage.json
-~/root/TransportSecurity
-~/root/Backups/workspaces.json
-~/root/Cache/*
-~/root/Cache/c85687354a0e770a_0
-~/root/Cache/cbc42e4c979f69f0_0
-~/root/Cache/index
-~/root/Cache/index-dir/the-real-index
-~/root/CachedData/*
-~/root/CachedExtensions/*
-~/root/Code Cache/*
-~/root/GPUCache/*
-~/root/Local Storage/*
-~/root/Service Worker/*
-~/root/User/*
-~/root/exthost Crash Reports/*
-~/root/logs/*
-~/root/Crash Reports/*
+~/root/*

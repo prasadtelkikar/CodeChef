@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>solutions_ubuntu</RootNamespace>
-    <StartupObject>solutions_ubuntu.RAINBOWA</StartupObject>
+    <StartupObject>solutions_ubuntu.CATDOGS</StartupObject>
   </PropertyGroup>
 
 </Project>

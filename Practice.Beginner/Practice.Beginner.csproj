@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Practice.Beginner.VOWELTB</StartupObject>
+    <StartupObject>Practice.Beginner.LOSTMAX</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -62,12 +62,16 @@
     <Compile Include="CHEFARRP.cs" />
     <Compile Include="CHEFSTUD.cs" />
     <Compile Include="CHFINTRO.cs" />
+    <Compile Include="CHFRICH.cs" />
     <Compile Include="CHN15A.cs" />
     <Compile Include="CHNGIT.cs" />
     <Compile Include="CHOPRT.cs" />
     <Compile Include="CHSERVE.cs" />
     <Compile Include="CIELRCPT.cs" />
+    <Compile Include="ELEVSTRS.cs" />
     <Compile Include="RECIPE.cs" />
+    <Compile Include="RECTSQ.cs" />
+    <Compile Include="SEGM01.cs" />
     <Compile Include="SMPAIR.cs" />
     <Compile Include="CO92JUDG.cs" />
     <Compile Include="Cheated\COMM3.cs" />
@@ -126,11 +130,14 @@
     <Compile Include="SNCKYEAR.cs" />
     <Compile Include="START01.cs" />
     <Compile Include="STRLBP.cs" />
+    <Compile Include="SLOOP.cs" />
+    <Compile Include="SUMPOS.cs" />
     <Compile Include="TABLET.cs" />
     <Compile Include="TOWIN.cs" />
     <Compile Include="TRAINSET.cs" />
     <Compile Include="TRISQ.cs" />
     <Compile Include="TSTROBOT.cs" />
+    <Compile Include="TTENIS.cs" />
     <Compile Include="TWOVSTEN.cs" />
     <Compile Include="VCS.cs" />
     <Compile Include="WATSCORE.cs" />

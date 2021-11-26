@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29411.108
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Beginner", "Practice.Beginner\Practice.Beginner.csproj", "{644FC746-8299-4AEA-A4B1-6382FB78FC6A}"
 EndProject
@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PythonSolutions", "PythonSo
 	ProjectSection(SolutionItems) = preProject
 		C:\Users\Prasad Tekikar\Desktop\AMR15A.py = C:\Users\Prasad Tekikar\Desktop\AMR15A.py
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Beginner-I", "Practice.Beginner-I\Practice.Beginner-I.csproj", "{580E74DC-78D2-44CA-AE1C-CA04199E13EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{CF1F4F99-5BA6-4F52-A634-D82487DBEA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF1F4F99-5BA6-4F52-A634-D82487DBEA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF1F4F99-5BA6-4F52-A634-D82487DBEA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580E74DC-78D2-44CA-AE1C-CA04199E13EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580E74DC-78D2-44CA-AE1C-CA04199E13EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580E74DC-78D2-44CA-AE1C-CA04199E13EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580E74DC-78D2-44CA-AE1C-CA04199E13EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

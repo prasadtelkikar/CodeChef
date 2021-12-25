@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Practice.Beginner_I</RootNamespace>
-    <StartupObject>Practice.Beginner_I.ANKTRAIN</StartupObject>
+    <StartupObject>Practice.Beginner_I.HE_Sum_Frequency</StartupObject>
   </PropertyGroup>
 
 </Project>
